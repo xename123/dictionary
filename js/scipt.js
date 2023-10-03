@@ -1,7 +1,7 @@
 Object.prototype.length = function () {
   return Object.keys(this).length;
 };
-console.log("Changed");
+
 class wordTranslater {
   static dictionaryList = document.querySelector(".list__body");
 
